@@ -115,42 +115,34 @@ nav{
 }
 
 
-
 .banner{
     width: 800px;
     height: 230px;
     border-radius: 10px;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin: 20px auto;
-    margin-top: 200px;
-    margin-bottom: 120px;
     box-shadow: 0px 16px 36.599998474121094px 0px rgba(14, 0, 33, 1);
     background: linear-gradient(180deg, #1a0137 0%, #F42973 182.3%);
+    margin: 20px auto;
+    margin-top: 150px;
+    overflow: hidden;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .banner-text{
-    color: whitesmoke;
-    text-align: center;
     line-height: 2px;
-    margin: 20px auto;
 }
-
 
 .banner-section-2{
     background-image: linear-gradient(rgb(27, 5, 52), rgba(244, 41, 115, 1));
-    height: 100%;
     border-radius: 0px 0px 10px 10px;
   }
 
-  
 .container {
     color: whitesmoke;
-    margin: 0 auto;
+    margin: 0px auto;
     text-align: center;
     font-family: Fira Sans Extra Condensed;
+    padding: 18px;
   }
   
  .container li {
@@ -168,7 +160,6 @@ nav{
     font-size: 1.2em;
     list-style-type: none;
     text-transform: uppercase;
-    border-right: 2px solid whitesmoke;
     box-sizing: border-box;
 
   }
@@ -177,12 +168,6 @@ nav{
     display: block;
     font-size: 4.2rem;
   }
-  
-  .banner-section-2-separator{
-    font-family: Fira Sans Extra Condensed;
-    font-size: 100px;
-  }
-
   
   @media all and (max-width: 768px) {
     h1 {
@@ -197,7 +182,6 @@ nav{
       font-size: calc(3.375rem * var(--smaller));
     }
   }
-
 
 .section-2{
     width: 100%;
@@ -801,6 +785,13 @@ nav{
 }
 /* Section-7 End */
 
+/* Hero Section Banner Start */
+.banner{
+    width: 500px;
+    height: 320px;
+}
+/* Hero Section Banner End */
+
   } 
 
 
@@ -971,6 +962,13 @@ nav{
     text-align: center;
 }
 /* Section-9 End */
+
+/* Hero Section Banner Start */
+.banner{
+    width: 500px;
+    height: 320px;
+}
+/* Hero Section Banner End */
   }
 
 
@@ -986,7 +984,12 @@ nav{
         font-weight: 400;
         line-height: 20px;
     }
-
+    /* Hero Section Banner Start */
+    .banner{
+        width: 400px;
+        height: 320px;
+    }
+    /* Hero Section Banner End */
   }
 
 /* Responsive of Website End */
