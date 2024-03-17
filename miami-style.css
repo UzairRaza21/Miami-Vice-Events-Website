@@ -657,15 +657,14 @@ nav{
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
-.section-2-events-inner p{
+.red-text{
     font-family: Georama;
     font-size: 20px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 20px;
     letter-spacing: 0em;
     color: rgba(244, 41, 115, 1);
 }
-
 
 .section-2-events-cart{
     display: flex;
@@ -686,11 +685,11 @@ nav{
     max-width: 60%;
 }
 
-.section-2-events-cart-details p{
+.white-thin-text{
     font-family: Georama;
     font-size: 15px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
     color: whitesmoke;
@@ -960,10 +959,10 @@ nav{
     font-weight: 900;
     line-height: 45px;
 }
-.section-2-events-inner p{
+.red-text{
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 20px;
 }
 .section-2-events-cart{
     flex-direction: column;
@@ -984,10 +983,10 @@ nav{
     text-align: center;
 }
 
-.section-2-events-cart-details p{
+.white-thin-text{
     font-size: 15px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 15px;
     letter-spacing: 0em;
     text-align: center;
 }
@@ -1183,15 +1182,15 @@ nav{
     font-weight: 800;
     line-height: 40px;
 }
-.section-2-events-inner p{
+.red-text{
     font-size: 15px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 18px;
 }
-.section-2-events-cart-details p{
+.white-thin-text{
     font-size: 12px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 15px;
     letter-spacing: 0em;
     text-align: center;
 }
@@ -1230,15 +1229,15 @@ nav{
     font-weight: 700;
     line-height: 35px;
 }
-.section-2-events-inner p{
+.red-text{
     font-size: 13px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 15px;
 }
-.section-2-events-cart-details p{
+.white-thin-text{
     font-size: 12px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 13px;
     letter-spacing: 0em;
     text-align: center;
 }
