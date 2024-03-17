@@ -618,6 +618,156 @@ nav{
 }
 
 
+
+
+/* ------------------------------------------------------------------------------------Home page End------------------------------------------------------------------ */
+
+
+
+
+/* EVENT PAGE */
+
+.hero-section-events{
+    background-image: url(./Assets/Images/event-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.section-2-events{
+    padding: 50px 180px 50px 180px;
+    background-image: url(./Assets/Images/event-inner-bg.png), linear-gradient(180deg, #140825 -7.45%, #1F1231 16.64%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.section-2-events-inner{
+    text-align: center;
+}
+.section-2-events-inner h1{
+    font-family: Fascinate;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    background: -webkit-linear-gradient(240deg, #f92371 .31%, #cac1d4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.section-2-events-inner p{
+    font-family: Georama;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: rgba(244, 41, 115, 1);
+}
+
+
+.section-2-events-cart{
+    display: flex;
+    text-align: left;
+    margin: 50px 0px 50px 0px;
+    gap: 60px;
+}
+
+.section-2-events-cart-img{
+    max-width: 40%;
+    padding: 30px 0px 0px 0px;
+}
+.section-2-events-cart-img img{
+    width: 90%;
+}
+
+.section-2-events-cart-details{
+    max-width: 60%;
+}
+
+.section-2-events-cart-details p{
+    font-family: Georama;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 /* Responsive of Website Start*/
 
@@ -644,6 +794,11 @@ nav{
         flex-direction: column;
         gap: 60px;
     }
+    /* --------------------------------------------------------------------Home page Responsiveness End-------------------------------------------------------------- */
+.section-2-events{
+    padding: 50px 120px 50px 120px; 
+}
+
   } 
 
 
@@ -791,6 +946,52 @@ nav{
     height: 320px;
 }
 /* Hero Section Banner End */
+
+/* --------------------------------------------------------------------Home page Responsiveness End-------------------------------------------------------------- */
+.hero-section-events{
+    height: 600px;
+}
+
+.section-2-events{
+    padding: 50px 80px 50px 80px; 
+}
+.section-2-events-inner h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+.section-2-events-inner p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.section-2-events-cart{
+    flex-direction: column;
+    margin: 30px 0px 30px 0px;
+    gap: 20px;
+    align-items: center;
+   
+}
+.section-2-events-cart-img{
+    max-width: 100%;
+}
+.section-2-events-cart-img img{
+    width: 80%;
+}
+
+.section-2-events-cart-details{
+    max-width: 100%;
+    text-align: center;
+}
+
+.section-2-events-cart-details p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
 
   } 
 
@@ -969,6 +1170,32 @@ nav{
     height: 320px;
 }
 /* Hero Section Banner End */
+
+/* --------------------------------------------------------------------Home page Responsiveness End-------------------------------------------------------------- */
+.hero-section-events{
+    height: 400px;
+}
+.section-2-events{
+    padding: 50px 50px 50px 50px; 
+}
+.section-2-events-inner h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+}
+.section-2-events-inner p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.section-2-events-cart-details p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
   }
 
 
@@ -990,6 +1217,33 @@ nav{
         height: 320px;
     }
     /* Hero Section Banner End */
+
+    /* --------------------------------------------------------------------Home page Responsiveness End-------------------------------------------------------------- */
+.hero-section-events{
+    height: 300px;
+    }
+.section-2-events{
+    padding: 50px 20px 50px 20px; 
+}
+.section-2-events-inner h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.section-2-events-inner p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.section-2-events-cart-details p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
   }
 
 /* Responsive of Website End */
+
+
