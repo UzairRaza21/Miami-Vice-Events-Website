@@ -696,9 +696,57 @@ nav{
 }
 
 
+/* -----------------------------------------------------------------Event PAGE END------------------------------------------------------------------------------------------ */
 
+/* Contact Page */
 
+#contact-cover{
+    background-image: url(./Assets/Images/contact-bg.png);
+}
 
+.section-2-contact-inner{
+    text-align: center;
+}
+
+.pink-text{
+    font-family: Fascinate;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    background: -webkit-linear-gradient(240deg, #f92371 .31%, #cac1d4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+#pink-text-size{
+    font-size: 30px;
+}
+.contact-form p {
+    font-family: Georama;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#form-msg{
+    width: 700px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 50px;
+    background: rgba(78, 61, 99, 0.8);
+    color: whitesmoke
+    ;
+}
+#white-thin-text{
+    text-align: center;
+}
+.contact-icon a{
+    margin-left: 10px;
+}
 
 
 
@@ -990,8 +1038,10 @@ nav{
     letter-spacing: 0em;
     text-align: center;
 }
-
-
+/* -----------------------------------------------------------------------Event page Responsiveness End------------------------------------------------------------- */
+#form-msg{
+    width: 600px;
+}
   } 
 
 
@@ -1194,6 +1244,11 @@ nav{
     letter-spacing: 0em;
     text-align: center;
 }
+/* -----------------------------------------------------------------------Event page Responsiveness End------------------------------------------------------------- */
+#form-msg{
+    width: 500px;
+    font-size: large;
+}
 
   }
 
@@ -1240,6 +1295,11 @@ nav{
     line-height: 13px;
     letter-spacing: 0em;
     text-align: center;
+}
+/* -----------------------------------------------------------------------Event page Responsiveness End------------------------------------------------------------- */
+#form-msg{
+    width: 400px;
+    font-size: medium;
 }
   }
 
