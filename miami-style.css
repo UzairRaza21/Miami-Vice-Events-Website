@@ -392,8 +392,9 @@ nav{
 
 .section-5-cart-1-pic{
     max-width: 50%;
-    margin-top: -80px;
+    margin-top: -40px;
     margin-right: -40px;
+    padding-bottom: 30px;
 }
 .section-5-cart-1-pic img {
     width: 100%;
@@ -420,7 +421,7 @@ nav{
     background-color: rgba(56, 14, 104, 1);
     border-radius: 0px 20px 20px 0px;
     height: 150px;
-    margin-top: 70px;
+    margin-top: 90px;
     font-family: Georama;
     font-size: 15px;
     font-weight: 400;
@@ -843,6 +844,30 @@ nav{
     margin: 50px 400px 50px 400px ;
 } 
 
+/* ----------------------------------------------------------Ticket PAGE END------------------------------------------------------------------------------------------------ */
+.section-2-cast-inner{
+    text-align: center;
+}
+.cast-carts-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cast-cart{
+    width: 180px;
+}
+.cast-cart-inner img{
+    width: 80%;
+}
+.cast-cart-text{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(360deg, #401674 -83.33%, #F42973 210.14%);
+    border-radius: 10px;  
+    margin-top: -32px;
+}
+
+
 
 
 
@@ -937,6 +962,18 @@ nav{
         flex-direction: column;
         gap: 60px;
     }
+    .section-5-cart-2-text{
+        padding: 10px 30px 10px 30px;
+        height: 150px;
+        margin-top: 60px;
+        font-size: 15px;
+    }
+    .section-5-cart-1{
+        margin: 100px 10px 20px 10px;
+    }
+    .section-5-cart-3{
+        margin: 10px;
+    }
     /* --------------------------------------------------------------------Home page Responsiveness End-------------------------------------------------------------- */
 .section-2-events{
     padding: 50px 120px 50px 120px; 
@@ -1028,7 +1065,6 @@ nav{
     display: block;
     background-color: rgba(56, 14, 104, 1);
     border-radius: 20px;
-    padding:  15px;
 }
 
 .section-5-cart-2-pic{
@@ -1171,6 +1207,8 @@ nav{
 #web-button{
     margin: 50px 280px 50px 280px ;
 } 
+/* -----------------------------------------------------------------Ticket PAGE END---------------------------------------------------------------------------- */
+
   } 
 
 
