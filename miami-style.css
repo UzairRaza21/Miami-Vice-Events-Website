@@ -765,18 +765,26 @@ nav{
     border-radius: 40px; 
     box-shadow: 5px 5px 35px rgb(160, 96, 129);
 }
+
 #pink-text-tickets{
     text-align: center;
+    text-transform: capitalize;
 }
 .section-2-tickets-cart{
     padding: 0px 80px 20px 80px;
     background: rgba(30, 7, 58, 0.588);
     border-radius: 40px 40px 0px 0px;
-    box-shadow: 5px 5px 20px rgba(30, 7, 58, 0.588) inset ;
+    box-shadow: 5px 5px 20px rgb(44, 2, 96) inset ;
+}
+.section-2-tickets-cart-m{
+    box-shadow: 1px 8px 15px rgb(44, 2, 96) inset ;
+    padding: 0px 80px 20px 80px;
+    background: rgba(30, 7, 58, 0.588);
+   
 }
 .cart-ticket-details{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .section-2-tickets-cart-header{
     display: flex;
@@ -815,6 +823,25 @@ nav{
     margin: 0px 10px 0px 10px;
     
 }
+.cart-total-box{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.315);
+    padding: 5px 50px 5px 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.cart-ticket-total{
+    display: flex;
+    padding: 0px 40px 20px 40px;
+    justify-content: end;
+    
+}
+#cart-ticket-total{
+    border-radius: 0px 0px 30px 30px ;
+}
+#web-button{
+    margin: 50px 400px 50px 400px ;
+} 
 
 
 
@@ -889,6 +916,9 @@ nav{
   .mobile-header{
       display: none;
   }
+  #web-button{
+    margin: 50px 350px 50px 350px ;
+} 
 
 }
 
@@ -920,6 +950,12 @@ nav{
 .section-2-tickets-cart{
     padding: 0px 65px 20px 65px;
 }
+.section-2-tickets-cart-m{
+    padding: 0px 65px 20px 65px;
+}
+#web-button{
+    margin: 50px 310px 50px 310px ;
+} 
 
   } 
 
@@ -1129,6 +1165,12 @@ nav{
 .section-2-tickets-cart{
     padding: 0px 55px 20px 55px;
 }
+.section-2-tickets-cart-m{
+    padding: 0px 55px 20px 55px;
+}
+#web-button{
+    margin: 50px 280px 50px 280px ;
+} 
   } 
 
 
@@ -1342,6 +1384,12 @@ nav{
 .section-2-tickets-cart{
     padding: 0px 45px 10px 45px;
 }
+.section-2-tickets-cart-m{
+    padding: 0px 45px 20px 45px;
+}
+#web-button{
+    margin: 50px 220px 50px 220px ;
+} 
   }
 
 
@@ -1403,6 +1451,12 @@ nav{
 .section-2-tickets-cart{
     padding: 0px 35px 10px 35px;
 }
+.section-2-tickets-cart-m{
+    padding: 0px 35px 20px 35px;
+}
+#web-button{
+    margin: 50px 140px 50px 140px ;
+} 
   }
 
 /* Responsive of Website End */
