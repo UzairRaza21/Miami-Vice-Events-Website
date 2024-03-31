@@ -1082,6 +1082,9 @@ nav{
     .mobile-header{
         display: none;
     }
+    .container {
+        padding: 0px;
+    }
     .section-2{
         height: 550px;
     }
@@ -1309,7 +1312,7 @@ nav{
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and  (max-width: 767px) {
+@media only screen and  (max-width: 768px) {
     .desktop-header {
         display: none;
     }
@@ -1586,7 +1589,7 @@ nav{
     /* Hero Section Banner Start */
     .banner{
         width: 400px;
-        height: 300px;
+        height: 280px;
     }
     /* Hero Section Banner End */
     .hero-section{
@@ -1659,7 +1662,10 @@ div#nav-col-links {
 .section-2{
     height: 550px;
 }
-
+.container li {
+    padding: 0 30px 6px 0;
+    margin-right: 0px;
+}
 .section-5{
     border-radius: 100px;
  }
@@ -1689,6 +1695,59 @@ div#nav-col-links {
     font-size: 35px;
 }
   }
+
+  @media only screen and (max-width: 425px) {
+    .banner{
+        width: 400px;
+        height: 320px;
+    }
+
+}
+
+  @media only screen and (max-width: 375px) {
+    .banner{
+        width: 300px;
+        height: 262px;
+    }
+    .banner-text{
+        font-size: 16px;
+    }
+    .container li span {
+        font-size: 49px;
+        line-height: 48px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .container li {
+        font-size: 1.2em;
+        padding: 0 50px 0 0;
+        margin-right: -10px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .banner{
+        width: 300px;
+        height: 262px;
+    }
+    .banner-text{
+        font-size: 16px;
+    }
+    .container li span {
+        font-size: 49px;
+        line-height: 48px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .container li {
+        font-size: 1.2em;
+        padding: 0 50px 0 0;
+        margin-right: -10px;
+    }
+}
 
 /* Responsive of Website End */
 
